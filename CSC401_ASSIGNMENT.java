@@ -6,7 +6,7 @@ class GravityCalc{
         double initialPosition= 0.0;
         double finalPosition= 0.0;
         finalPosition= 0.5 *gravity*(fallingTime*FallingTime)+ initialVelocity + initialPosition;
-        System.Out.PrintIn("The object's Position After" + fallingTime+ "seconds is" + finalPosition+"m");
+        System.out.println("The object's Position After" + fallingTime+ "seconds is" + finalPosition+"m");
      }
   }
 
